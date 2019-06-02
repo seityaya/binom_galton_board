@@ -1,4 +1,4 @@
-/*Хедр*/
+/*Хедр*/galton_board_V1_func/
 
 #pragma once
 #include <iostream>
