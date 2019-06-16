@@ -1,8 +1,3 @@
-# Created by and for Qt Creator This file was created for editing the project sources only.
-# You may attempt to use it for building too, by modifying this file here.
-
-#TARGET = galton_board
-
 QMAKE_CXXFLAGS += -fopenmp
 QMAKE_LFLAGS += -fopenmp
 LIBS += -fopenmp
@@ -25,8 +20,5 @@ SOURCES = \
     binom_work.c \
     ss_time.c
 
-INCLUDEPATH = \
-
 DISTFILES += \
     autor \
-    galton_board.pro.user

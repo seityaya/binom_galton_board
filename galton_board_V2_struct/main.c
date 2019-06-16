@@ -56,10 +56,4 @@ int main()
 //    printf("Paralel \n");
 //    binom_print(&paralel_bd);
 //    timestst_print(&timess_paralel_bd);
-
-
-//    binom_fileout("Newton",   &newton_bd,    &timess_newton_bd,
-//                  "Normalize",&normalize_bd, &timess_normalize_bd,
-//                  "Consist",  &consist_bd,   &timess_consist_bd,
-//                  "Paralel",  &paralel_bd,   &timess_paralel_bd);
 }

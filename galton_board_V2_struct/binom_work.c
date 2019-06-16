@@ -1,6 +1,7 @@
 #include <stdint.h>
 #include "binom_struct.h"
 #include <stdio.h>
+
 void binom_print(BBD *bbd)
 {
     printf("L:%d  \nN:%d  \nSUM:%d  \nSEED:%d\n", bbd->l, bbd->n, bbd->sum, bbd->seed);
@@ -43,4 +44,3 @@ void bimom_sum(BBD *bbd)
         bbd->sum += bbd->mas[i];
     }
 }
-//void binom_fileout();
