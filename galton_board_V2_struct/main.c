@@ -3,7 +3,6 @@
 #include "binom_galton.h"
 #include "ss_time.h"
 #include "binom_work.h"
-#include "struct_init.h"
 
 #define L 18     //18 max
 #define N 100000 //(int)(pow(2, L))
